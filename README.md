@@ -31,6 +31,7 @@ export class ManejoEstadoService {
 
 En este ejemplo, el servicio EstadoService contiene un BehaviorSubject que permite emitir valores y compartir el estado entre diferentes componentes de la aplicación. Los componentes pueden suscribirse a este Observable para reaccionar a los cambios en el estado.
 
+## 2. Persistencia
 
 La persistencia de datos se refiere a la capacidad de almacenar y recuperar datos incluso después de cerrar o refrescar la aplicación. En Angular, se puede lograr mediante el uso de localStorage o sessionStorage del navegado.
 
