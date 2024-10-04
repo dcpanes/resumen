@@ -5,15 +5,19 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
-
-
+import { ConectarApiModule } from '../conectar-api/conectar-api.module';
+import { TituloPaginaComponent } from '../titulo-pagina/titulo-pagina.component';
+import { HttpClientModule } from '@angular/common/http';
+ 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    ConectarApiModule,
+    HttpClientModule
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, TituloPaginaComponent]
 })
 export class HomePageModule {}
